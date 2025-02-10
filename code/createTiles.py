@@ -281,7 +281,7 @@ del polygon_tiles_gpd['intersect']
 polygon_export_loc = '/Users/joshuadimasaka/Desktop/PhD/GitHub/DeepTemporal/data/TILES/output_no_overlap.gpkg'
 polygon_tiles_gpd.to_file(polygon_export_loc, driver="GPKG")   
 
-# %%
+# %% Export
 for i in range(len(output_folder_list)):
 
     output_folder = output_folder_list[i]
